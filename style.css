@@ -1,0 +1,65 @@
+body { margin:0; font-family:Arial; background:#f7f6f3; }
+
+/* LOGIN */
+.login-wrapper{display:flex;height:100vh;}
+.login-image img{width:400px;}
+.login-card{margin:auto;background:#fff;padding:40px;border-radius:20px;}
+
+/* DASHBOARD */
+.dashboard{display:flex;height:100vh;}
+.sidebar{width:220px;background:#fff;padding:20px;}
+.sidebar li{padding:10px;cursor:pointer;}
+.sidebar .active{background:#ffe600;border-radius:8px;}
+.main{flex:1;padding:20px;}
+.topbar{display:flex;justify-content:space-between;}
+.profile-pic{width:40px;border-radius:50%;}
+.card{background:#fff;padding:20px;border-radius:20px;margin-bottom:20px;}
+.new-task{background:#ffe600;border:none;padding:10px 20px;border-radius:20px;}
+.big-profile{width:120px;border-radius:20px;}
+.save-btn{background:#ffe600;border:none;padding:10px;border-radius:20px;}
+/* ===== MY TASKS TABLE ===== */
+
+.task-table-full {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.task-table-full th {
+  text-align: left;
+  padding: 14px;
+  font-size: 13px;
+  color: #777;
+  border-bottom: 1px solid #eee;
+}
+
+.task-table-full td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.orange {
+  color: #f5a623;
+  font-weight: bold;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.progress { background: #ffe600; }
+.notstarted { background: #eee; }
+.high { background: #f5a623; }
+.medium { background: #f7d999; }
+
+.assignee {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
